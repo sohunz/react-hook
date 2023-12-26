@@ -1,8 +1,10 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { useState } from "react";
 import UseState from "./UseState";
 import UseEffect from "./UseEffect";
 import HomeView from "./HomeView";
-import { useState } from "react";
+import UseReducer from "./UseReducer";
+
 
 const Home = () => {
     const routes = [
@@ -14,12 +16,17 @@ const Home = () => {
         {
             path: "/usestate",
             element: <UseState />,
-            title: "UseState",
+            title: "useState",
         },
         {
             path: "/useeffect",
             element: <UseEffect />,
-            title: "UseEffect",
+            title: "useEffect",
+        },
+        {
+            path: "/usereducer",
+            element: <UseReducer />,
+            title: "useReducer",
         },
     ];
 

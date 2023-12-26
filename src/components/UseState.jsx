@@ -1,5 +1,9 @@
 const UseState = () => {
-    return <div>UseState</div>;
+    return (
+        <div>
+            <p>Already Learn</p>
+        </div>
+    );
 };
 
 export default UseState;
