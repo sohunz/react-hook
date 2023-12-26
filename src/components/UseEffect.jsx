@@ -10,7 +10,7 @@ const UseEffect = () => {
             .then((respone) => {
                 setComments(respone.data);
             })
-            console.log('use effect ran');
+            // console.log('use effect ran');
     }, []);
 
     return (
