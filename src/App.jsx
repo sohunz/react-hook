@@ -1,11 +1,8 @@
 import "./index.css";
+import Home from "./components/Home";
 
 const App = () => {
-    return (
-        <div>
-            <h1 className="text-3xl font-bold underline text-center">Hello world!</h1>
-        </div>
-    );
+    return <Home />;
 };
 
 export default App;
