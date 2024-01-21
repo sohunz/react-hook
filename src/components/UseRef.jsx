@@ -4,7 +4,7 @@ import { useRef } from "react";
 
 const UseRef = () => {
     const inputRef = useRef(null);
-    const [name, setName] =useState('name');
+    const [name, setName] = useState("name");
 
     const handleChangName = () => {
         // get value from input
@@ -20,12 +20,12 @@ const UseRef = () => {
         inputRef.current.value = "";
     };
 
-    // i use useEffect when component run the input field will focus
+    //  use useEffect when component run the input field will focus
 
-    // useEffect(() => {
-    //     inputRef.current.focus();
-    //     console.log('useEffect ran');
-    // }, )
+    useEffect(() => {
+        inputRef.current.focus();
+        console.log("useEffect ran");
+    }, []);
 
     return (
         <div>

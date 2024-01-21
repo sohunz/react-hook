@@ -6,7 +6,7 @@ import HomeView from "./HomeView";
 import UseReducer from "./UseReducer";
 import UseRef from "./UseRef";
 import UseContext from "./UseContext";
-
+import UseLayoutEffect from "./UseLayoutEffect";
 
 const Home = () => {
     const routes = [
@@ -39,6 +39,11 @@ const Home = () => {
             path: "/usecontext",
             element: <UseContext />,
             title: "useContext",
+        },
+        {
+            path: "/uselatyouteffect",
+            element: <UseLayoutEffect />,
+            title: "useLayoutEffect",
         },
     ];
 
