@@ -51,7 +51,7 @@ const Home = () => {
     return (
         <BrowserRouter>
             <header className="pb-5">
-                <div className="border-1 p-2 flex justify-start bg-slate-100">
+                <div className="border-1 p-2 flex flex-wrap justify-start bg-slate-100">
                     {routes.map((route, index) => {
                         return (
                             <Link
