@@ -5,6 +5,7 @@ import UseEffect from "./UseEffect";
 import HomeView from "./HomeView";
 import UseReducer from "./UseReducer";
 import UseRef from "./UseRef";
+import UseContext from "./UseContext";
 
 
 const Home = () => {
@@ -33,6 +34,11 @@ const Home = () => {
             path: "/useref",
             element: <UseRef />,
             title: "useRef",
+        },
+        {
+            path: "/usecontext",
+            element: <UseContext />,
+            title: "useContext",
         },
     ];
 
