@@ -5,7 +5,7 @@ import UseEffect from "./UseEffect";
 import HomeView from "./HomeView";
 import UseReducer from "./UseReducer";
 import UseRef from "./UseRef";
-import UseContext from "./UseContext";
+import UseContext from "../components/useContext/UseContext"
 import UseLayoutEffect from "./UseLayoutEffect";
 
 const Home = () => {
